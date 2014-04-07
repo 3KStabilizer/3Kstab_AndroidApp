@@ -70,7 +70,7 @@ public void addListenerOnButton(){
 				EditText etX = (EditText) findViewById(R.id.editText1);
 				EditText etY = (EditText) findViewById(R.id.editText2);
 				EditText etZ = (EditText) findViewById(R.id.editText3);
-				new SendService().execute("v:x"+etX.getText(),"v:y"+etY.getText(),"v:z"+etZ.getText());
+				new SendService().execute("x:"+etX.getText(),"y:"+etY.getText(),"z:"+etZ.getText());
 				Intent intent = new Intent(context,MainActivity.class);
 				startActivity(intent);
 			}

@@ -13,7 +13,7 @@ import android.os.AsyncTask;
 public class SendService extends AsyncTask<String, Void, Void>{
 
 	protected Void doInBackground(String... data) {
-        String ip = "127.0.0.1";
+        String ip = "192.168.0.10";
         int port = 1234;
         // Do work here, based on the contents of dataString
         try {

@@ -12,7 +12,7 @@ public class ReceiveService extends
 AsyncTask<String/* work parameter*/, Void/*progress parameter*/, String/*return parameter*/>{
 
 	protected String doInBackground(String... data) {
-        String ip = "127.0.0.1";
+        String ip = "192.168.0.10";
         int port = 1234;
         String res = null;
         // Do work here, based on the contents of dataString
